@@ -5,9 +5,7 @@ This project is aimed at automating the testing of the [Saucedemo](https://www.s
 ## Table of Contents
 - [Project Description](#project-description)
 - [Technologies Used](#technologies-used)
-- [Setup Instructions](#setup-instructions)
 - [Test Cases](#test-cases)
-- [Contributing](#contributing)
 - [License](#license)
 - [Contact](#contact)
 
@@ -20,3 +18,26 @@ The Saucedemo Automation Testing Project uses Selenium WebDriver to automate the
 - pytest (for running tests)
 - GitHub Actions (for CI/CD)
 
+### Test cases
+Here is a list of test cases that have been implemented:
+
+- Login Tests:
+  - Valid login
+  - Invalid login (wrong username/password)
+- Product Tests:
+  - Search for products
+  - Add products to the cart
+- Cart Tests:
+  - View items in the cart
+  - Remove items from the cart
+- Checkout Tests:
+  - Complete the checkout process
+
+More test cases are being added continuously. Feel free to check the issues page for updates and new test cases.
+### License
+- Используйте как хотите, это учебный проект и ничего секретного тут нет.
+
+### Contact
+- Name: Alisher Saidakhmatov
+- Email: evklidovsdeer@gmail.com
+- Github: Raindeero
