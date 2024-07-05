@@ -15,8 +15,6 @@ The Saucedemo Automation Testing Project uses Selenium WebDriver to automate the
 ## Technologies Used
 - Python
 - Selenium WebDriver
-- pytest (for running tests)
-- GitHub Actions (for CI/CD)
 
 ### Test cases
 Here is a list of test cases that have been implemented:
