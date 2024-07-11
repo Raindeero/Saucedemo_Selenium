@@ -7,13 +7,13 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.chrome.options import Options
 
-from variables import *
+from locators import *
+from options import *
 
 options = Options()
-options.add_argument("--window-size=1920,1080")
-options.add_argument("--disable-blink-features=AutomationControlled")
-options.add_argument(
-    "--user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.3")
+options.add_argument(WINDOW_SIZE)
+options.add_argument(BLINK_ENGINE_DISABLE)
+options.add_argument(USER_AGENT)
 
 service = Service(executable_path=ChromeDriverManager().install())
 driver = webdriver.Chrome(service=service, options=options)
